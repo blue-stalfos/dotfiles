@@ -1,4 +1,5 @@
-source ~/.antigen/antigen.zsh
+source /usr/local/share/antigen/antigen.zsh
+source $(dirname $(gem which colorls))/tab_complete.sh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -7,7 +8,7 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle heroku
 antigen bundle npm
-antigen bundle nyan
+# antigen bundle nyan
 antigen bundle osx
 antigen bundle ng
 antigen bundle thefuck
@@ -21,10 +22,12 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 # Load official Pure theme
 antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
+# antigen bundle sindresorhus/pure
 
-# Load the theme.
+# Load the theme
 # antigen theme refined
+antigen bundle jackharrisonsherlock/common
+antigen theme jackharrisonsherlock/common
 
 # Tell Antigen that you're done.
 antigen apply

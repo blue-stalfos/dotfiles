@@ -4,8 +4,6 @@
 
 set laststatus=2
 set nocompatible
-
-" Use case insensitive search, except when using capital letters
 set ignorecase
 set smartcase
 set mouse=a
@@ -19,12 +17,16 @@ set tabstop=4
 
 syntax on
 
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
+Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-vinegar'
 
 call plug#end()
@@ -39,21 +41,21 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " The above lines should be replaced with the ones below
 let g:airline_powerline_fonts = 1
-set guifont=Iosevka:h12
+set guifont=SF Mono:h12
 
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 let g:netrw_browse_split = 4
-"let g:netrw_liststyle = 3
+" let g:netrw_liststyle = 3
 
-function! MyProjectDrawer()
-	if filereadable(expand('%'))
-			Vexplore
-	endif
-endfunction
+"function! MyProjectDrawer()
+"	if filereadable(expand('%'))
+"			Vexplore
+"	endif
+" endfunction
 
-augroup openDrawer
-  autocmd!
-  autocmd VimEnter * :call MyProjectDrawer()
-augroup END
+" augroup openDrawer
+"  autocmd!
+"  autocmd VimEnter * :call MyProjectDrawer()
+" augroup END
 
