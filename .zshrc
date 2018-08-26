@@ -19,15 +19,18 @@ antigen bundle thefuck
 # Bundles from other repos
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
-
-# Load official Pure theme
 antigen bundle mafredri/zsh-async
-# antigen bundle sindresorhus/pure
 
 # Load the theme
 # antigen theme refined
+# antigen bundle sindresorhus/pure
 antigen bundle jackharrisonsherlock/common
 antigen theme jackharrisonsherlock/common
 
 # Tell Antigen that you're done.
 antigen apply
+
+# Command aliases
+alias ls='colorls'
+alias l='ls -la'
+

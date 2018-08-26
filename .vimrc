@@ -1,7 +1,3 @@
-"python3 from powerline.vim import setup as powerline_setup
-"python3 powerline_setup()
-"python3 del powerline_setup
-
 set laststatus=2
 set nocompatible
 set ignorecase
@@ -14,12 +10,15 @@ set backspace=indent,eol,start
 set nostartofline
 set number
 set tabstop=4
+set softtabstop=0
+set shiftwidth=4
 
 syntax on
 
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+runtime macros/matchit.vim
 
 call plug#begin('~/.vim/plugged')
 
@@ -28,6 +27,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-vinegar'
+Plug 'mustache/vim-mustache-handlebars'
 
 call plug#end()
 
@@ -41,7 +41,8 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " The above lines should be replaced with the ones below
 let g:airline_powerline_fonts = 1
-set guifont=SF Mono:h12
+set guifont=SFMono\ Nerd\ Font:h12
+
 
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
