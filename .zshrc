@@ -35,6 +35,7 @@ alias ls='colorls'
 alias l='ls -la'
 alias cat='bat'
 alias ping='prettyping --nolegend'
+alias bubu='brew update && brew upgrade'
 
 # Enviroment variables
 # export BAT_THEME="TwoDark"
