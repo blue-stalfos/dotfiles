@@ -33,4 +33,9 @@ antigen apply
 # Command aliases
 alias ls='colorls'
 alias l='ls -la'
+alias cat='bat'
+alias ping='prettyping --nolegend'
+
+# Enviroment variables
+# export BAT_THEME="TwoDark"
 
