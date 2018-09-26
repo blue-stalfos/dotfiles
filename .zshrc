@@ -37,6 +37,14 @@ alias cat='bat'
 alias ping='prettyping --nolegend'
 alias bubu='brew update && brew upgrade'
 
+
+function e() {
+	# EMACS_BIN=/Applications/Emacs.app/Contents/MacOS/Emacs.sh
+	
+    /Applications/Emacs.app/Contents/MacOS/Emacs.sh $@ > /dev/null 2> /dev/null & 
+	disown
+}
+
 # Enviroment variables
 # export BAT_THEME="TwoDark"
 
