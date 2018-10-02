@@ -1,0 +1,2 @@
+
+(funcall prescient-cache-callback :version (quote 5) :history (quote #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("doom-dracula" 3 "font-spec" 1 ":family" 0 ":size" 2))) :frequency (quote #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("doom-dracula" 0.9791880578299021 "font-spec" 2.961233191618299 ":family" 1.985053892081 ":size" 0.991026973))) :serial-number (quote 7))

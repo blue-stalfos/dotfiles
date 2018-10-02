@@ -1,0 +1,22 @@
+exit
+ls
+l
+clear
+ls
+clear
+brew cleanup
+brew cleanup
+uname
+brew prune
+st
+slack-term 
+cd ~
+cd Ironhack/
+ls
+cd chroma-blaster/
+l
+cd js
+ls
+open chroma.js 
+man
+exit

@@ -1,0 +1,1 @@
+("~/Applications/Ironhack/chroma-blaster/" "~/.emacs.d/")

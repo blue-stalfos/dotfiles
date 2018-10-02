@@ -1,0 +1,26 @@
+
+;; ----- smex-history -----
+(
+ package-install
+ kill-buffer
+ projectile-mode
+ projectile-dired
+ dired
+ 5x5
+ emacs-uptime
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 3)
+ (load-theme . 1)
+ (term . 3)
+ (kill-buffer . 3)
+ (make-directory . 2)
+ (command-apropos . 1)
+ (emacs-uptime . 1)
+ (5x5 . 1)
+ (dired . 2)
+ (projectile-dired . 1)
+ (projectile-mode . 2)
+)

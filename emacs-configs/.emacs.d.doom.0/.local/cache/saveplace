@@ -1,0 +1,34 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/Richard/.emacs.d/core/core-packages.el" . 12010)
+ ("/Users/Richard/.emacs.d/core/packages.el" . 780)
+ ("/Users/Richard/.emacs.d/.local/etc/workspaces/autosave" . 1542)
+ ("/Users/Richard/.emacs.d/core/core-ui.el" . 2485)
+ ("/Users/Richard/.emacs.d/core/"
+  (dired-filename . "/Users/Richard/.emacs.d/core/core-packages.elc"))
+ ("/Users/Richard/.emacs.d/init.el" . 2342)
+ ("/Users/Richard/.emacs.d/"
+  (dired-filename . "/Users/Richard/.emacs.d/core"))
+ ("/Users/Richard/Applications/Ironhack/chroma-blaster/js/sprites.js" . 4819)
+ ("/Users/Richard/Applications/Ironhack/chroma-blaster/js/chroma.js" . 2247)
+ ("/Users/Richard/"
+  (dired-filename . "/Users/Richard/Ironhack"))
+ ("/Users/Richard/Ironhack/"
+  (dired-filename . "/Users/Richard/Ironhack/chroma-blaster"))
+ ("/Users/Richard/Ironhack/chroma-blaster/css/" . 259)
+ ("/Users/Richard/Ironhack/chroma-blaster/"
+  (dired-filename . "/Users/Richard/Ironhack/chroma-blaster/js"))
+ ("/Users/Richard/Ironhack/chroma-blaster/js/"
+  (dired-filename . "/Users/Richard/Ironhack/chroma-blaster/js/chroma.js"))
+ ("/Users/Richard/Ironhack/chroma-blaster/js/chroma.js" . 1049)
+ ("/Users/Richard/Ironhack/Prework/"
+  (dired-filename . "/Users/Richard/Ironhack/Prework/html-css"))
+ ("/Users/Richard/Ironhack/Prework/html-css/"
+  (dired-filename . "/Users/Richard/Ironhack/Prework/html-css/style.css"))
+ ("/Users/Richard/Ironhack/Prework/html-css/style.css" . 70)
+ ("/Users/Richard/.emacs.d/core/core-editor.el" . 1150)
+ ("/Users/Richard/.emacs.d/modules/tools/neotree/autoload.el" . 1143)
+ ("/Users/Richard/.emacs.d/modules/tools/neotree/config.el" . 1229)
+ ("/Users/Richard/.emacs.d/.local/etc/custom.el" . 58)
+ ("/Users/Richard/.emacs.d/bin/"
+  (dired-filename . "/Users/Richard/.emacs.d/bin/.."))
+ ("/Users/Richard/.emacs.d/core/core.el" . 9455))

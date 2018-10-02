@@ -1,0 +1,26 @@
+"1361f9f0b491f3a52f30add52251e8ccf2c78d10"
+#s(undo-tree [nil (#1=[nil nil ((1122 . 1361) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -1122) (1085 . 1121) (1047 . 1050) (1032 . 1034) (#("  " 0 2 (fontified nil)) . 1032) (1004 . 1005) (#(" " 0 1 (fontified nil)) . 1004) (#("
+" 0 1 (fontified nil)) . -1082) (1046 . 1047) (1032 . 1034) (1004 . 1005) (1078 . 1079) (1042 . 1043) (#(" " 0 1 (fontified nil)) . 1042) (1030 . 1031) (#(" " 0 1 (fontified nil)) . 1030) (1003 . 1004) (#(" " 0 1 (fontified nil)) . 1003) (993 . 1078) (#(" " 0 1 (fontified nil)) . 993) (968 . 994) (532 . 533) (#(" " 0 1 (fontified nil)) . 532) (#("
+" 0 1 (fontified nil)) . -968) (532 . 533) (967 . 968) (531 . 532) (#(" " 0 1 (fontified nil)) . 531) (521 . 967) (#(" " 0 1 (fontified nil)) . 521) (491 . 522) (413 . 414) (#(" " 0 1 (fontified nil)) . 413) (#("
+" 0 1 (fontified nil)) . -491) (413 . 414) (490 . 491) (412 . 413) (#(" " 0 1 (fontified nil)) . 412) (402 . 490) (#(" " 0 1 (fontified nil)) . 402) (136 . 403) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    (\"aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb\" default)))
+ '(package-selected-packages
+   (quote
+    (dracula-theme emmet-mode web-mode markdown-mode haml-mode yaml-mode define-word powerthesaurus flyspell-correct-popup flyspell-correct company shell-pop git-gutter magit counsel-projectile ivy-rich avy flx smex counsel swiper ivy projectile multiple-cursors visual-regexp move-text expand-region which-key vi-tilde-fringe neotree rich-minority smartparens all-the-icons undo-tree simpleclip exec-path-from-shell use-package)))
+ '(shell-pop-shell-type
+   (quote
+    (\"ansi-term\" \"*ansi-term*\"
+     (lambda nil
+       (ansi-term shell-pop-term-shell)))))
+ '(shell-pop-universal-key \"s-=\"))" 0 991 (fontified nil)) . -136) (t 23466 41299 381415 492000)) nil (23471 38218 146368 0) 0 nil]) nil nil (23471 38218 146375 0) 0 nil] #1# 1598 1 nil)

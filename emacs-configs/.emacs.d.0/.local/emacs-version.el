@@ -1,0 +1,1 @@
+(setq doom--last-emacs-version "26.1")

@@ -1,0 +1,44 @@
+
+;; ----- smex-history -----
+(
+ kill-buffer
+ list-buffers
+ doom/update-package
+ evil-delete-buffer
+ minibuffer-default-add-shell-commands
+ eshell
+ quit-window
+)
+
+;; ----- smex-data -----
+(
+ (2C-split . 1)
+ (set-face-font . 2)
+ (persp-add-new . 1)
+ (project-find-file . 1)
+ (projectile-grep . 1)
+ (counsel-projectile-grep . 1)
+ (switch-to-buffer . 1)
+ (package-install . 3)
+ (all-the-icons-install-fonts . 1)
+ (load-theme . 3)
+ (describe-theme . 1)
+ (neotree-show . 1)
+ (neotree-hide . 2)
+ (neotree . 1)
+ (neotree-refresh . 2)
+ (evil-window-vsplit . 1)
+ (neotree-find . 2)
+ (neotree-dir . 1)
+ (tern-mode . 1)
+ (neotree-mode . 2)
+ (+neotree/toggle . 1)
+ (doom/toggle-fullscreen . 1)
+ (eshell . 3)
+ (quit-window . 1)
+ (minibuffer-default-add-shell-commands . 1)
+ (list-buffers . 2)
+ (kill-buffer . 2)
+ (evil-delete-buffer . 1)
+ (doom/update-package . 1)
+)
