@@ -1,5 +1,5 @@
 source /usr/local/share/antigen/antigen.zsh
-source $(dirname $(gem which colorls))/tab_complete.sh
+# source $(dirname $(gem which colorls))/tab_complete.sh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -35,16 +35,24 @@ alias ls='colorls'
 alias l='ls -la'
 alias cat='bat'
 alias ping='prettyping --nolegend'
+alias st='slack-term'
 alias bubu='brew update && brew upgrade'
-
+alias wtf='wtf -o'
 
 function e() {
-	# EMACS_BIN=/Applications/Emacs.app/Contents/MacOS/Emacs.sh
-	
-    /Applications/Emacs.app/Contents/MacOS/Emacs.sh $@ > /dev/null 2> /dev/null & 
+    /Applications/Emacs.app/Contents/MacOS/Emacs.sh $@ > /dev/null 2> /dev/null &
 	disown
 }
 
 # Enviroment variables
 # export BAT_THEME="TwoDark"
+
+# Excessive Ruby configuration
+export PATH="/usr/local/opt/bin:/usr/local/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+
+# Declare my default editor for all the world to know
+export EDITOR=mvim
 

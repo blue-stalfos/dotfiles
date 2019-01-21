@@ -9,6 +9,7 @@ set hlsearch
 set backspace=indent,eol,start
 set nostartofline
 set number
+set relativenumber
 set tabstop=4
 set softtabstop=0
 set shiftwidth=4
@@ -19,6 +20,12 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 runtime macros/matchit.vim
+
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+:augroup END
 
 call plug#begin('~/.vim/plugged')
 
