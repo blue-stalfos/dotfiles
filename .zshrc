@@ -10,7 +10,7 @@ antigen bundle heroku
 antigen bundle npm
 # antigen bundle nyan
 antigen bundle osx
-antigen bundle ng
+# antigen bundle ng
 antigen bundle thefuck
 # antigen bundle pip
 # antigen bundle lein
