@@ -1,12 +1,14 @@
 source /usr/local/share/antigen/antigen.zsh
 # source $(dirname $(gem which colorls))/tab_complete.sh
 
+. /usr/local/etc/profile.d/z.sh
+
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git
-antigen bundle heroku
+# antigen bundle heroku
 antigen bundle npm
 # antigen bundle nyan
 antigen bundle osx
@@ -35,9 +37,11 @@ alias ls='colorls'
 alias l='ls -la'
 alias cat='bat'
 alias ping='prettyping --nolegend'
-alias st='slack-term'
+alias sta='slack-term -config ~/.slack-term.andres'
+alias sti='slack-term -config ~/.slack-term.ironhack'
 alias bubu='brew update && brew upgrade'
 alias wtf='wtf -o'
+alias vim='mvim'
 
 function e() {
     /Applications/Emacs.app/Contents/MacOS/Emacs.sh $@ > /dev/null 2> /dev/null &
@@ -54,5 +58,5 @@ export CPPFLAGS="-I/usr/local/opt/ruby/include"
 export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
 
 # Declare my default editor for all the world to know
-export EDITOR=mvim
+export EDITOR=vim
 
