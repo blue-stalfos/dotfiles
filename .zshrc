@@ -49,7 +49,7 @@ function e() {
 }
 
 # Enviroment variables
-# export BAT_THEME="TwoDark"
+export BAT_THEME="TwoDark"
 
 # Excessive Ruby configuration
 export PATH="/usr/local/opt/bin:/usr/local/opt/ruby/bin:$PATH"
