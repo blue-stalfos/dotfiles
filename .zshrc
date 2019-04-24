@@ -41,12 +41,12 @@ alias sta='slack-term -config ~/.slack-term.andres'
 alias sti='slack-term -config ~/.slack-term.ironhack'
 alias bubu='brew update && brew upgrade'
 alias wtf='wtf -o'
-alias vim='mvim'
+# alias vim='mvim'
 
-function e() {
-    /Applications/Emacs.app/Contents/MacOS/Emacs.sh $@ > /dev/null 2> /dev/null &
-	disown
-}
+# function e() {
+#    /Applications/Emacs.app/Contents/MacOS/Emacs.sh $@ > /dev/null 2> /dev/null &
+#	disown
+# }
 
 # Enviroment variables
 export BAT_THEME="TwoDark"
